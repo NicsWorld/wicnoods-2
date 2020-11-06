@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import Header from './components/Header';
+import Primary from './components/Primary';
+import Secondary from './components/Secondary';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="container">
+      <div className="row">
+        <div className="primary">
+          <Primary  />
+        </div>
+        <div className="secondary">
+          <Secondary />
+        </div>
+      </div>
+      </div>
     </div>
   );
 }
