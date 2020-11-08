@@ -50,8 +50,25 @@ p.desc {
     margin-right: 10px;
   }
 }
+.content-demo {
+  // height: 330px;
+  margin-top: 30px;
+  width: 100%;
+}
 .skills, .projects {
   margin-top: 20px;
+}
+.project-title {
+  font-size: 30px;
+  color: #545e69;
+  text-align: center;
+  margin-top: 30px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+.disclaimer {
+  margin-top: 5px;
 }
 .skill, .about-item {
   display: flex;
